@@ -1,42 +1,42 @@
- [ 
+ [
   {
-    "title":"Gourmet Pantry",
-    "url": "/assets/images/categories/ambient_3.jpeg",
-    "description": "Great selection of premium, shelf-stable ingredients and delicacies to elevate your everyday coocking."
-  }, 
+    "title": "Careers",
+    "url": "/assets/images/categories/jobs.jpg",
+    "description": "Explore Chicago's job market, highest-paying careers, salary trends, and opportunities in growing industries."
+  },
   {
-    "title":"Spirits",
-    "url": "/assets/images/categories/spirits_3.jpeg",
-    "description": "A refined collection of premium liquors and craft spirits from around the world."
-  }, 
+    "title": "Neighborhoods",
+    "url": "/assets/images/categories/neighborhood.webp",
+    "description": "Discover Chicago neighborhoods through local insights, safety, affordability, housing, and lifestyle comparisons."
+  },
   {
-    "title":"Frozen",
-    "url": "/assets/images/categories/frozen.jpeg",
-    "description": "Deliciously chill treats — artisanal ice creams and mochi for every sweet craving."
-  }, 
+    "title": "Data & Statistics",
+    "url": "/assets/images/categories/chicago_data.jpg",
+    "description": "Interactive charts and data-driven stories using public datasets to understand Chicago and the United States."
+  },
   {
-    "title":"Charcuterie & Cheeses",
-    "url": "/assets/images/categories/cheese.jpg",
-    "description": "A handpicked selection of Spanish, Italian, and English cured meats and cheeses — rich in tradition and flavor."
-  }, 
+    "title": "Cost of Living",
+    "url": "/assets/images/categories/chicago_cost_of_living_illustration.svg",
+    "description": "Learn about rent, groceries, transportation, utilities, and budgeting to make smarter financial decisions."
+  },
   {
-    "title":"Bread",
-    "url": "/assets/images/categories/bread_2.jpg",
-    "description": "Artisan sourdough loaves, naturally leavened and baked to perfection for rich, complex flavor."
-  }, 
+    "title": "Education",
+    "url": "/assets/images/categories/education.jpg",
+    "description": "Guides to universities, colleges, certifications, scholarships, and the most valuable degrees for today's job market."
+  },
   {
-    "title":"Wine",
-    "url": "/assets/images/categories/wines.jpg",
-    "description": "A thoughtfully curated wine collection, highlighting Italian and French classics, with global selections to suit every palate."
-  }, 
+    "title": "Food & Local Favorites",
+    "url": "/assets/images/categories/chicago_food_illustration.svg",
+    "description": "Find the best restaurants, coffee shops, hidden gems, and authentic local food experiences across Chicago."
+  },
   {
-    "title":"Meats & Specials",
-    "url": "/assets/images/categories/meat_2.jpg",
-    "description": "Premium cuts and seasonal specialties — carefully selected by our supplier for flavor and freshness."
-  },  
+    "title": "Transportation",
+    "url": "/assets/images/categories/transportation.jpg",
+    "description": "Everything about getting around Chicago, from CTA and Metra to driving, parking, biking, and commuting tips."
+  },
   {
-    "title":"Coffee counter",
-    "url": "/assets/images/categories/coffee_2.jpeg",
-    "description": "Freshly brewed coffees and specialty blends crafted to energize your day."
+    "title": "Events & Things to Do",
+    "url": "/assets/images/categories/chicago_events_illustration.svg",
+    "description": "Stay updated with festivals, concerts, seasonal activities, free events, and unique experiences happening around the city."
   }
 ]

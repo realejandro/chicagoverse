@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import React from 'react'
+import Image from 'next/image';
 
 
 
@@ -29,7 +30,15 @@ const NavBar = () => {
   <div className="navbar justify-center bg-base-100 font-serif">
     <div className="navbar-start">
         <div className="flex flex-row justify-center gap-4 hidden lg:flex">
-            { iconListRendering() }
+             <Link href="/">
+                <Image
+                    src="/assets/images/logo/chicagoverse-wordmark.svg"
+                    alt="Chicagoverse"
+                    width={400}
+                    height={105}
+                    priority
+                />
+            </Link>
         </div>
         <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -40,26 +49,52 @@ const NavBar = () => {
                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
                 <li>
-                    <Link href={"/"}>FOOD & DRINK</Link>
+                    <Link href={"/"}>Home</Link>
                 </li>
                 <li>
-                    <Link href={"/"}>HOME</Link>
+                    <Link href={"/"}>Jobs</Link>
                 </li>
                 <li>
-                    <Link href={"/about"}>ABOUT US</Link>
+                    <Link href={"/"}>Neighborhoods</Link>
                 </li>
                 <li>
-                    <Link href={"/contact"}>CONTACT</Link>
+                    <Link href={"/"}>Finance</Link>
+                </li>
+                <li>
+                    <Link href={"/posts"}>Resources</Link>
+                </li>
+                <li>
+                    <Link href={"/about"}>Housing</Link>
+                </li>
+                <li>
+                    <Link href={"/contact"}>Blog</Link>
                 </li>
             </ul>
         </div>
     </div>
     <div className="navbar-center flex-none">
         <ul className="menu menu-horizontal px-1 hidden lg:flex">
-          <li><Link href={"/"}>FOOD & DRINK</Link></li>
-          <li><Link href={"/"}>HOME</Link></li>
-          <li><Link href={"/about"}>ABOUT US</Link></li>
-          <li><Link href={"/contact"}>CONTACT</Link></li>
+          <li>
+                    <Link href={"/"}>Home</Link>
+                </li>
+                <li>
+                    <Link href={"/"}>Jobs</Link>
+                </li>
+                <li>
+                    <Link href={"/"}>Neighborhoods</Link>
+                </li>
+                <li>
+                    <Link href={"/"}>Finance</Link>
+                </li>
+                <li>
+                    <Link href={"/posts"}>Resources</Link>
+                </li>
+                <li>
+                    <Link href={"/about"}>Housing</Link>
+                </li>
+                <li>
+                    <Link href={"/contact"}>Blog</Link>
+                </li>
         </ul>
     </div>
     <div className="navbar-end gap-4">

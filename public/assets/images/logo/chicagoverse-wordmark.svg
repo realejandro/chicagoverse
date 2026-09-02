@@ -1,0 +1,34 @@
+<svg viewBox="0 0 1600 420" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- ===== transit line, drawn first so letters sit on top of it ===== -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- red line: rises up behind the C, runs under CHICAGO -->
+    <path d="M 40,318 L 70,285 L 108,252 M 70,285 L 760,285 L 800,258" stroke="#C60C30" stroke-width="10"/>
+
+    <!-- blue line: runs under VERSE, rises up behind the final E -->
+    <path d="M 820,258 L 860,285 L 1250,285 L 1288,252 L 1318,285" stroke="#00A1DE" stroke-width="10"/>
+
+    <!-- perpendicular stop ticks along the red line -->
+    <line x1="220" y1="275" x2="220" y2="295" stroke="#C60C30" stroke-width="8"/>
+    <line x1="420" y1="275" x2="420" y2="295" stroke="#C60C30" stroke-width="8"/>
+    <line x1="620" y1="275" x2="620" y2="295" stroke="#C60C30" stroke-width="8"/>
+
+    <!-- perpendicular stop ticks along the blue line -->
+    <line x1="1000" y1="275" x2="1000" y2="295" stroke="#00A1DE" stroke-width="8"/>
+    <line x1="1150" y1="275" x2="1150" y2="295" stroke="#00A1DE" stroke-width="8"/>
+  </g>
+
+  <!-- line terminus dots -->
+  <circle cx="40" cy="318" r="11" fill="#C60C30"/>
+  <circle cx="1318" cy="285" r="11" fill="#00A1DE"/>
+
+  <!-- interchange / transfer station where the two lines meet -->
+  <circle cx="810" cy="258" r="19" fill="#FAF9F6" stroke="#1B1B1B" stroke-width="6"/>
+
+  <!-- ===== wordmark ===== -->
+  <text x="100" y="260" font-family="Poppins" font-weight="700" font-size="150" letter-spacing="2">
+    <tspan fill="#C60C30">CHICAGO</tspan><tspan fill="#00A1DE">VERSE</tspan>
+  </text>
+
+</svg>

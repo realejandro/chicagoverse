@@ -39,7 +39,7 @@ export const SectionCategories = () => {
 
         <div className="grid justify-center mt-10 mb-2">
             <button className="btn btn-wide bg-[#91A488] w-50 text-white hover:bg-[#ffffff] hover:text-[#91A488]">
-            VIEW ALL
+            LATEST POSTS
             </button>
         </div>
     </div>
