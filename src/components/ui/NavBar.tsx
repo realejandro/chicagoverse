@@ -32,9 +32,9 @@ const NavBar = () => {
         <div className="flex flex-row justify-center gap-4 hidden lg:flex">
              <Link href="/">
                 <Image
-                    src="/assets/images/logo/chicagoverse-wordmark.svg"
+                    src="/assets/images/logo/chiscope-wordmark-logo.svg"
                     alt="Chicagoverse"
-                    width={400}
+                    width={300}
                     height={105}
                     priority
                 />

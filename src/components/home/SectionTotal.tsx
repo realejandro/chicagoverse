@@ -20,7 +20,7 @@ export const SectionTotal = () => {
             <div className="flex flex-col w-full justify-center bg-zinc-100 p-10">
                 <h2 className="text-3xl">Opportunities in the City</h2>
                 <div className="divider w-[5.25%]"/>
-                <p> Chicago is full of opportunity—from growing job markets to affordable neighborhoods on the rise. Chicagoverse helps you find and make the most of them.</p>
+                <p> Chicago is full of opportunity—from growing job markets to affordable neighborhoods on the rise. ChiScope helps you find and make the most of them.</p>
                 <div className='flex mt-10'>
                     <button className="btn btn-wide bg-[#91A488] w-50 text-white hover:bg-[#ffffff] hover:text-[#91A488]" >
                         LATEST POSTS

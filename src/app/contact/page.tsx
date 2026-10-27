@@ -32,7 +32,7 @@ const ContactFormPage = () => {
 
           <div className="flex w-[100%] h-[50vh] mt-10">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.0523647511504!2d-0.21709992312252785!3d51.475553113029015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760f48a37c692b%3A0x7dc7584b86f35646!2sGourmet%20Hound!5e0!3m2!1ses!2sus!4v1748625213764!5m2!1ses!2sus" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.5744334449682!2d-87.68347482443859!3d41.902008563917605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2b68fbadb5f%3A0x899eb6f7873eba61!2s2129%20W%20Haddon%20Ave%2C%20Chicago%2C%20IL%2060622!5e0!3m2!1sen!2sus!4v1788387860922!5m2!1sen!2sus" 
               width="100%" 
               height="100%" 
               style={{ border:0 }} 

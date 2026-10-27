@@ -23,7 +23,7 @@ export const IntroSection = () => {
             </div>
             <h1 className='text-5xl'>Discover Chicago Beyond the Headlines</h1>
             <span className='text-base'>
-                {"Hi! Welcome to Chicagoverse—your guide to living, working, and thriving in Chicago. We share practical insights on jobs, housing, neighborhoods, cost of living, public safety, local opportunities, and the resources that help you make informed decisions about life in the city"}.
+                {"Hi! Welcome to ChiScope—your guide to living, working, and thriving in Chicago. We share practical insights on jobs, housing, neighborhoods, cost of living, public safety, local opportunities, and the resources that help you make informed decisions about life in the city"}.
             </span>
         </div>
         <div className='flex justify-center mt-10'>

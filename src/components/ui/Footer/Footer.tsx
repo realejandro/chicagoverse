@@ -24,9 +24,9 @@ const Footer = () => {
             <h2 className="text-2xl font-bold">
                 <Link href="/" className="inline-block">
                     <Image
-                        src="/assets/images/logo/chicagoverse-wordmark.svg"
+                        src="/assets/images/logo/chiscope-wordmark-logo.svg"
                         alt="Chicagoverse"
-                        width={400}
+                        width={300}
                         height={105}
                         className="h-auto w-48"
                         priority
@@ -92,7 +92,7 @@ const Footer = () => {
           {/* Chicagoverse */}
           <div>
             <h3 className="mb-4 text-lg font-semibold">
-              Chicagoverse
+              ChiScope
             </h3>
 
             <ul className="space-y-3 text-sm">
@@ -197,7 +197,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p>
-            © {new Date().getFullYear()} Chicagoverse.
+            © {new Date().getFullYear()} ChiScope.
             All rights reserved.
           </p>
 
